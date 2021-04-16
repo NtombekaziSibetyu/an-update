@@ -1,48 +1,13 @@
-/*
-Theme Name: Developer
-Theme URI: http://themewagon.com/demo/Developer/
-Author: ThemeWagon
-Author URI: http://themewagon.com/
-Description: Slick One page HTML 5 template powered by Bootstrap 3.
-Version: 1.14.11
-License: GNU General Public License v3
-License URI: http://www.gnu.org/licenses/gpl-3.0.txt
-Tags: blue, white, one page, parallax, responsive-layout, full-width-template
-Text Domain: developer
-*/
-
-/**
-* Table of Contents:
-*
-* 01.0 - Global
-* 02.0 - Header
-* 03.0 - Navigation
-* 04.0 - Blur styles
-* 05.0 - Home
-* 06.0 - Latest Works
-* 	 06.1 - isotope (http://isotope.metafizzy.co/)
-*	 06.2 - Image Hover Effect
-* 07.0 - More About Me
-* 	 07.1 - Animated Number
-* 08.0 - Testimonials
-* 	 08.1 - Owl Carousel (http://owlgraphic.com/owlcarousel/)
-* 09.0 - Contact
-*	 09.1 - Social Icon
-* 10.0 - Footer
-* 11.0 - Responsive styles
-* -----------------------------------------------------------------------------
-*/
-
 
 /* ///////////////////////////////////////////////////////////////////// 
 //  01 - Global 
 /////////////////////////////////////////////////////////////////////*/
-@font-face {
-	font-family: 'Pacifico';
+/* @font-face {
+	font-family: 'Open Sans';
 	font-style: normal;
 	font-weight: 400;
 	src: local('Pacifico Regular'), local('Pacifico-Regular'), url("../fonts/pacifico.woff") format('woff');
-}
+} */
 
 html, body {
 	margin: 0; 
@@ -63,9 +28,7 @@ h1, h2, h3, h4, h5,h6 {
 }
 
 body {
-	font: 15px/23px "Lucida Sans","Liberation Sans","Lucida Sans Unicode","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
 	background-color: rgb(224, 247, 246);
-
 }
 
 .btn {
@@ -91,10 +54,10 @@ body {
 ///////////////////////////////////////////////////////////////////////*/
 
 #header {
-	background: url(https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&w=1400&q=60) no-repeat center top fixed;
+	background: url(https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260) no-repeat center top fixed;
 	background-size: cover;
 }
-
+/* https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&w=1400&q=60 */
 #site-header {
 	position: fixed;
 	width: 100%;
@@ -107,7 +70,7 @@ body {
 
 #site-header h1 {
 	margin: 0;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Open Sans';
 	margin-top: 11px;
 	font-size: 26px;
 	font-weight: 300;
@@ -152,6 +115,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	position: relative;
 	transition: 0.5s background linear;
+	text-decoration: none;
 }
 
 /* .site-nav ul li a:hover {
@@ -167,8 +131,8 @@ section {
   }
 .site-nav ul li a:hover, .site-nav ul li a:focus
 {
-	background-color: rgba(216, 216, 216, 0.58);
-	color: #1C2725;
+	background-color: rgb(255, 255, 255);
+	color: #818181;
 }
 /* about */
 #about {
@@ -230,7 +194,7 @@ section {
     /* font-family: 'Source Sans Pro', sans-serif; */
     /* font-family: 'Niconne', cursive; */
     font-weight: 400;
-    font-family: 'Rouge Script', cursive;
+    font-family: 'Open Sans';
     line-height: 90px;
     color: #fff;
     letter-spacing: 1px;
@@ -242,7 +206,7 @@ section {
 	font-size: 27px;
 	margin-bottom: 60px;
 	color: #fff;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	line-height: 56px;
 	word-spacing: 2px;
@@ -257,16 +221,17 @@ section {
 	bottom: 4%;
 }
 
-.bottom .a .i {
+.bottom .a {
 	color: #ffffff;
 	display: inline-block;
 	position: relative;
 	top: 0px;
+	text-decoration: none;
 }
 
 .btn-hire {
 	text-transform: uppercase;
-	color: #111;
+	color: rgb(212, 211, 211);
 	border: 1px solid rgb(255, 255, 255);
 	font-family: 'Oxygen', sans-serif;
 	font-weight: 300;
@@ -380,7 +345,7 @@ a{
 
 #portfolio {
 	padding: 60px 0;
-	background: rgb(241, 240, 240);
+	background: rgb(255, 255, 255);
 }
 
 #portfolio .block-heading {
@@ -674,8 +639,9 @@ ul.numbersList span{
 /////////////////////////////////////////////////////////////////////*/
 
 #testimonials {
-    padding: 60px 0;
-	background: rgb(243, 243, 243);
+    padding: 40px 0;
+	background: rgb(48, 47, 47);
+	color: rgb(255, 255, 255);
 }
 
 #testimonials .block-heading{
@@ -689,10 +655,10 @@ ul.numbersList span{
 
 #testimonials .block-heading 
 {
-	color: rgb(15, 15, 15);
+	color: rgb(255, 255, 255);
 	font-family: 'Open Sans';
-	font-weight: 400;
-	font-size: 55px;
+	font-weight: 600;
+	font-size:60px;
 }
 
 #testimonials .testimonial {
@@ -729,7 +695,7 @@ ul.numbersList span{
 
 #contact {
 	/* background: url(../img/bg/contact-bg.jpg) no-repeat center center fixed; */
-	background: #0f201d no-repeat center center fixed;
+	background: #000000 no-repeat center center fixed;
 	background-size: cover;
 	color: #fff ;
 }
