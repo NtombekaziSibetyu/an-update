@@ -285,10 +285,11 @@ section {
 	list-style-type: none;
 	list-style: none;
 }
-#education .a {
+#education a {
 	text-decoration-line: none;
 	text-decoration: none;
 }
+
 /* tech stack */
 .container-cards {
 	margin: 1%;
