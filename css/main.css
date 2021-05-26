@@ -57,6 +57,7 @@ a {
 	text-decoration: none !important;
 	text-decoration-line: none !important;
 }
+
 a:hover {
 	color: rgba(255, 255, 255, 0.699);
 	background-color: transparent;
@@ -80,6 +81,8 @@ ul {
 	background-color: rgba(13, 13, 14, 0.94);
 	padding: 0 30px;
 	z-index: 100;
+	text-decoration: none !important;
+	text-decoration-line: none !important;
 }
 
 #site-header h1 {
@@ -92,7 +95,8 @@ ul {
 }
 
 #site-header h1 a:focus {
-    text-decoration: none;
+    text-decoration: none !important;
+	text-decoration-line: none !important;
 }
 
 #site-header h1  {
@@ -115,12 +119,14 @@ ul {
 	border: 0;
 	color: #fff;
 	margin-top: 13px;
-	text-decoration-line: none;
+	text-decoration: none !important;
+	text-decoration-line: none !important;
 }
 
 .site-nav ul li a {
 	color: #fff;
-	text-decoration: none;
+	text-decoration: none !important;
+	text-decoration-line: none !important;
 	font-size: 15px;
 	font-family: 'Open Sans', sans-serif;
 	position: relative;
@@ -228,7 +234,8 @@ section {
 	display: inline-block;
 	position: relative;
 	top: 0px;
-	text-decoration: none;
+	text-decoration: none !important;
+	text-decoration-line: none !important;
 	background-color: #FFF;
 }
 
