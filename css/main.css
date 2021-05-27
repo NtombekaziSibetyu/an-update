@@ -33,7 +33,7 @@ body {
 
 .btn:focus
 {
-	color: #fff;
+	color: #ffff;
 }
 
 .block-heading {
@@ -48,10 +48,8 @@ body {
     font-size: 18px;
 }
 ul li a {
-	background-color: transparent;
-	color: inherit;
-	text-decoration: transparent;
-	text-decoration-line: none;
+	text-decoration: none !important;
+	text-decoration-line: none !important;
 }
 a {
 	text-decoration: none !important;
@@ -227,6 +225,7 @@ section {
 	width: 100%;
 	bottom: 4%;
 	text-decoration: none;
+	color: #ffffff;
 }
 
 .bottom .text-center a {
@@ -238,7 +237,10 @@ section {
 	text-decoration-line: none !important;
 	background-color: #FFF;
 }
-
+.link {
+	text-decoration: none;
+	color: #ffffff;
+}
 .btn-hire {
 	text-transform: uppercase;
 	color: rgb(212, 211, 211);
@@ -286,6 +288,7 @@ section {
 	list-style: none !important;
 }
 #education a {
+	color: rgb(255, 255, 255);
 	text-decoration-line: none !important;
 	text-decoration: none !important;
 }
