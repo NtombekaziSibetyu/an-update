@@ -274,6 +274,12 @@ section {
 .about-me {
 	margin-top: 30px;
 }
+#cv_btn {
+	background-color: #ffffff;
+	color: rgb(82, 82, 82);
+	border-radius: 15px;
+	border-color: rgb(82, 82, 82);
+}
 /* end of about me */
 
 /* education info */
